@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Dictionary
 {
@@ -6,7 +7,7 @@ class Dictionary
     {
         int keys = 0;
 
-        foreach(string key in myDict)
+        foreach(string key in myDict.Keys)
             keys++;
         return keys;
     }
