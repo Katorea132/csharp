@@ -14,7 +14,7 @@ class MyQueue
         
         bool doesItTho = aQueue.Contains(search);
 
-        Console.WriteLine($"Queue contains {search}: {doesItTho}");
+        Console.WriteLine($"Queue contains \"{search}\": {doesItTho}");
         if (doesItTho)
         {
             string holder = "";
