@@ -12,7 +12,7 @@ class MyStack
             Console.WriteLine($"Top item: {result}");
         else
             Console.WriteLine("Stack is empty");
-        Console.WriteLine($"Stack contains {search}: {doesItTho}");
+        Console.WriteLine($"Stack contains \"{search}\": {doesItTho}");
         if (doesItTho)
         {
             string poppy = "";
