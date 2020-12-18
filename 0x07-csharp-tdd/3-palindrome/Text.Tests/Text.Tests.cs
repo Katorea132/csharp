@@ -14,6 +14,7 @@ namespace Tests
         [TestCase("1 2 1")]
         [TestCase("pazzap")]
         [TestCase("a-b-a-b-a")]
+        [TestCase("")]
         public void IsPalindrome_IsTrue(string s)
         {
             Assert.IsTrue(Text.Str.IsPalindrome(s));
