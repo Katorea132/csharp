@@ -1,0 +1,2 @@
+## Project about inheritance
+:D
